@@ -71,6 +71,8 @@ it to a file at the indicated location. You can assume that the nodes array has 
 The file format should be as follows (this is the output for the sample graph):
 
 Reachability Tree from Node 1:
+
 1 2
+
 2 3
 
