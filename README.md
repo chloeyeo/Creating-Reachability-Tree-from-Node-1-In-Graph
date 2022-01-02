@@ -53,12 +53,17 @@ The following algorithm can be used to compute the reachability tree from a give
 - Initialise a list of edges E = ()
 
 - While Q is not empty:
+
     o Remove the first node m from Q
     
     o For every node v in the adjacency list of m:
+    
         - If v is not in S:
+        
             • Add (m, v) to E
+            
             • Add v to S
+            
             • Add v to Q
     
 At the end of this process, the list E will contain the full list of edges representing the reachability
@@ -74,6 +79,8 @@ it to a file at the indicated location. You can assume that the nodes array has 
 The file format should be as follows (this is the output for the sample graph):
 
 Reachability Tree from Node 1:
+
 1 2
+
 2 3
 
